@@ -52,8 +52,6 @@ cleanCalendar();
 loadTasks();
 createCalendar();
 
-var currentSelection;
-
 $(".taskbox").on("click", function() {
     var text = $(this).text().trim();
 
